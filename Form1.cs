@@ -16,5 +16,11 @@ namespace Project10_PostgreSqlToDoList
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmCategory frmCategory = new FrmCategory();
+            frmCategory.Show();
+        }
     }
 }

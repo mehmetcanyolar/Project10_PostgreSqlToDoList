@@ -48,6 +48,7 @@
             this.btnCompletedList = new System.Windows.Forms.Button();
             this.cmbCategory = new System.Windows.Forms.ComboBox();
             this.btnOnGoingList = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -65,7 +66,7 @@
             // 
             this.txtId.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtId.Location = new System.Drawing.Point(197, 71);
-            this.txtId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtId.Margin = new System.Windows.Forms.Padding(4);
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(401, 28);
             this.txtId.TabIndex = 2;
@@ -73,8 +74,8 @@
             // btnList
             // 
             this.btnList.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnList.Location = new System.Drawing.Point(653, 66);
-            this.btnList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnList.Location = new System.Drawing.Point(657, 26);
+            this.btnList.Margin = new System.Windows.Forms.Padding(4);
             this.btnList.Name = "btnList";
             this.btnList.Size = new System.Drawing.Size(139, 48);
             this.btnList.TabIndex = 3;
@@ -85,7 +86,7 @@
             // 
             this.txtTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTitle.Location = new System.Drawing.Point(197, 125);
-            this.txtTitle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTitle.Margin = new System.Windows.Forms.Padding(4);
             this.txtTitle.Name = "txtTitle";
             this.txtTitle.Size = new System.Drawing.Size(401, 28);
             this.txtTitle.TabIndex = 5;
@@ -116,7 +117,7 @@
             // 
             this.txtPriority.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPriority.Location = new System.Drawing.Point(197, 238);
-            this.txtPriority.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPriority.Margin = new System.Windows.Forms.Padding(4);
             this.txtPriority.Name = "txtPriority";
             this.txtPriority.Size = new System.Drawing.Size(401, 28);
             this.txtPriority.TabIndex = 9;
@@ -136,7 +137,7 @@
             // 
             this.txtDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDescription.Location = new System.Drawing.Point(197, 297);
-            this.txtDescription.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDescription.Margin = new System.Windows.Forms.Padding(4);
             this.txtDescription.Multiline = true;
             this.txtDescription.Name = "txtDescription";
             this.txtDescription.Size = new System.Drawing.Size(401, 176);
@@ -169,7 +170,7 @@
             this.radioButtonCompleted.AutoSize = true;
             this.radioButtonCompleted.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButtonCompleted.Location = new System.Drawing.Point(228, 507);
-            this.radioButtonCompleted.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButtonCompleted.Margin = new System.Windows.Forms.Padding(4);
             this.radioButtonCompleted.Name = "radioButtonCompleted";
             this.radioButtonCompleted.Size = new System.Drawing.Size(122, 26);
             this.radioButtonCompleted.TabIndex = 13;
@@ -182,7 +183,7 @@
             this.radioButtonOnGoing.AutoSize = true;
             this.radioButtonOnGoing.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButtonOnGoing.Location = new System.Drawing.Point(448, 507);
-            this.radioButtonOnGoing.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButtonOnGoing.Margin = new System.Windows.Forms.Padding(4);
             this.radioButtonOnGoing.Name = "radioButtonOnGoing";
             this.radioButtonOnGoing.Size = new System.Drawing.Size(138, 26);
             this.radioButtonOnGoing.TabIndex = 14;
@@ -193,8 +194,8 @@
             // btnCreate
             // 
             this.btnCreate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCreate.Location = new System.Drawing.Point(653, 133);
-            this.btnCreate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCreate.Location = new System.Drawing.Point(657, 93);
+            this.btnCreate.Margin = new System.Windows.Forms.Padding(4);
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(139, 48);
             this.btnCreate.TabIndex = 15;
@@ -204,8 +205,8 @@
             // btnDelete
             // 
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.Location = new System.Drawing.Point(653, 203);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDelete.Location = new System.Drawing.Point(657, 163);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(4);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(139, 48);
             this.btnDelete.TabIndex = 16;
@@ -215,8 +216,8 @@
             // btnUpdate
             // 
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.Location = new System.Drawing.Point(653, 280);
-            this.btnUpdate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnUpdate.Location = new System.Drawing.Point(657, 240);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(4);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(139, 48);
             this.btnUpdate.TabIndex = 17;
@@ -226,10 +227,10 @@
             // btnListAll
             // 
             this.btnListAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnListAll.Location = new System.Drawing.Point(649, 350);
-            this.btnListAll.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnListAll.Location = new System.Drawing.Point(653, 310);
+            this.btnListAll.Margin = new System.Windows.Forms.Padding(4);
             this.btnListAll.Name = "btnListAll";
-            this.btnListAll.Size = new System.Drawing.Size(147, 91);
+            this.btnListAll.Size = new System.Drawing.Size(147, 58);
             this.btnListAll.TabIndex = 18;
             this.btnListAll.Text = "Yapılacaklar Listesi";
             this.btnListAll.UseVisualStyleBackColor = true;
@@ -237,8 +238,8 @@
             // btnCompletedList
             // 
             this.btnCompletedList.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCompletedList.Location = new System.Drawing.Point(649, 461);
-            this.btnCompletedList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCompletedList.Location = new System.Drawing.Point(653, 392);
+            this.btnCompletedList.Margin = new System.Windows.Forms.Padding(4);
             this.btnCompletedList.Name = "btnCompletedList";
             this.btnCompletedList.Size = new System.Drawing.Size(147, 62);
             this.btnCompletedList.TabIndex = 19;
@@ -257,13 +258,25 @@
             // btnOnGoingList
             // 
             this.btnOnGoingList.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOnGoingList.Location = new System.Drawing.Point(649, 543);
-            this.btnOnGoingList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnOnGoingList.Location = new System.Drawing.Point(653, 472);
+            this.btnOnGoingList.Margin = new System.Windows.Forms.Padding(4);
             this.btnOnGoingList.Name = "btnOnGoingList";
             this.btnOnGoingList.Size = new System.Drawing.Size(147, 56);
             this.btnOnGoingList.TabIndex = 21;
             this.btnOnGoingList.Text = "Devam Edenler";
             this.btnOnGoingList.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(653, 550);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(147, 56);
+            this.button1.TabIndex = 22;
+            this.button1.Text = "Kategori Listesi";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
@@ -271,6 +284,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(915, 659);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnOnGoingList);
             this.Controls.Add(this.cmbCategory);
             this.Controls.Add(this.btnCompletedList);
@@ -292,7 +306,7 @@
             this.Controls.Add(this.txtId);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TO DO LIST (Yapılacaklar Listesi)";
@@ -323,6 +337,7 @@
         private System.Windows.Forms.Button btnCompletedList;
         private System.Windows.Forms.ComboBox cmbCategory;
         private System.Windows.Forms.Button btnOnGoingList;
+        private System.Windows.Forms.Button button1;
     }
 }
 
