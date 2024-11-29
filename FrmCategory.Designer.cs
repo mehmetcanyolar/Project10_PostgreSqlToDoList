@@ -44,13 +44,14 @@
             // btnGetById
             // 
             this.btnGetById.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGetById.Location = new System.Drawing.Point(617, 322);
+            this.btnGetById.Location = new System.Drawing.Point(617, 328);
             this.btnGetById.Margin = new System.Windows.Forms.Padding(4);
             this.btnGetById.Name = "btnGetById";
             this.btnGetById.Size = new System.Drawing.Size(143, 60);
             this.btnGetById.TabIndex = 27;
             this.btnGetById.Text = "Id\'ye Göre Listele";
             this.btnGetById.UseVisualStyleBackColor = true;
+            this.btnGetById.Click += new System.EventHandler(this.btnGetById_Click);
             // 
             // btnUpdate
             // 
@@ -62,6 +63,7 @@
             this.btnUpdate.TabIndex = 26;
             this.btnUpdate.Text = "Güncelle";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDelete
             // 
@@ -73,6 +75,7 @@
             this.btnDelete.TabIndex = 25;
             this.btnDelete.Text = "Sil";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnCreate
             // 
@@ -84,6 +87,7 @@
             this.btnCreate.TabIndex = 24;
             this.btnCreate.Text = "Oluştur";
             this.btnCreate.UseVisualStyleBackColor = true;
+            this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
             // 
             // txtName
             // 
@@ -98,12 +102,12 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(54, 105);
+            this.label2.Location = new System.Drawing.Point(15, 100);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 22);
+            this.label2.Size = new System.Drawing.Size(138, 22);
             this.label2.TabIndex = 22;
-            this.label2.Text = "Başlık:";
+            this.label2.Text = "Kategori Adı : ";
             // 
             // btnList
             // 
@@ -115,6 +119,7 @@
             this.btnList.TabIndex = 21;
             this.btnList.Text = "Listele";
             this.btnList.UseVisualStyleBackColor = true;
+            this.btnList.Click += new System.EventHandler(this.btnList_Click);
             // 
             // txtId
             // 
@@ -129,12 +134,12 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(40, 46);
+            this.label1.Location = new System.Drawing.Point(34, 46);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 22);
+            this.label1.Size = new System.Drawing.Size(119, 22);
             this.label1.TabIndex = 19;
-            this.label1.Text = "İşlem Id:";
+            this.label1.Text = "Kategori Id :";
             // 
             // dataGridView1
             // 
